@@ -1,0 +1,26 @@
+.container{
+    margin-top: 25vh;
+    width: 50vw;
+}
+h1{
+    text-align: center;
+    padding-bottom: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(40, 109, 112, 0.94);
+    text-decoration-line: underline;
+}
+.text-add{
+    padding: 15px;
+    font-size: large;
+    font-family: cursive;
+    border: 1px solid rgba(63, 141, 144, 0.94);
+}
+.button{
+    background-color: rgba(44, 135, 138, 0.94);
+    color: beige;
+}
+.todoList{
+    background-color: rgb(81, 110, 93);
+    font-size: x-large;
+    padding:  7px 13px;
+}
