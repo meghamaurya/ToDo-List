@@ -6,7 +6,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import todoReducer from '../src/Redux/reducers';
 
-const store = configureStore(todoReducer);
+const store = configureStore({ reducer: todoReducer });
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
