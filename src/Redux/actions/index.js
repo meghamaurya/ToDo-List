@@ -1,18 +1,25 @@
-import { ADD_TODO, DELETE_TODO } from './actionType';
-export const addTodo = (id, text) => {
+import { ADD_TODO, DELETE_TODO, MARKED_COMPLETED } from "./actionType";
+
+export const addTodo = (id, text, isCompleted) => {
     return {
         type: ADD_TODO,
         payload: {
             id,
-            text
+            text,
+            isCompleted
         }
     }
 }
 export const deleteTodo = (id) => {
     return {
         type: DELETE_TODO,
-        payload: {
-            id
-        }
+        payload: id
+    }
+}
+
+export const markedCompleted = (id) => {
+    return {
+        type: MARKED_COMPLETED,
+        payload: id
     }
 }
