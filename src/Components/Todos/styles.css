@@ -1,0 +1,44 @@
+.container {
+  margin-top: 12vh;
+  width: 50vw;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(46, 143, 150);
+  font-size: 3rem;
+  text-decoration-line: underline;
+}
+.text-add {
+  padding: 15px;
+  font-size: large;
+  font-family: cursive;
+  border: 1px solid rgba(63, 141, 144, 0.94);
+}
+.button {
+  background-color: rgba(44, 135, 138, 0.94);
+  color: beige;
+}
+.listItem {
+  margin-top: 2rem;
+}
+.listItem .todoList {
+  background-color: white;
+  color: red;
+  /* border: none; */
+  font-size: x-large;
+  padding: 7px 13px;
+}
+.deleteBtn:hover {
+  background-color: rgb(213, 220, 220);
+}
+
+.listItem .todo-list {
+  border: none;
+}
+.error {
+  color: red;
+  font-weight: 500;
+}
